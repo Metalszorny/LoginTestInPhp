@@ -22,3 +22,4 @@ Enviroment:
 Warning:
 --------
 - Hungarian language is used in the application.
+- Php mailer must be added before execution.
