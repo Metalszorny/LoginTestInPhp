@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS ExampleDatabase;
+
+
+USE ExampleDatabase;
+CREATE TABLE IF NOT EXISTS users
+(
+id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(20) NOT NULL,
+password VARCHAR(50) NOT NULL,
+email VARCHAR(30) NOT NULL,
+valid TINYINT(1) NOT NULL DEFAULT 0,
+birth_year INT(11),
+birth_month VARCHAR(20),
+birth_day INT(11),
+ceate_date TIMESTAMP NOT NULL
+);
+
+
+INSERT INTO `ExampleDatabase`.`users` (`id`, `username`, `password`, `email`, `valid`, `birth_year`, `birth_month`, `birth_day`, `create_date`) VALUES (NULL, 'kiss_pista', 'pálesz', 'pálesz@nincsmail.com', '0', '1960', 'január', '1', CURRENT_TIMESTAMP);

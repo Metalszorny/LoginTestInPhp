@@ -1,0 +1,77 @@
+/* index.php */
+
+
+body.alap
+{
+    background-color: blue;
+}
+
+
+input.userinput
+{
+    width: 100px;
+}
+
+
+input.pswinput
+{
+    width: 100px;
+}
+
+
+
+
+/* reg.php */
+
+
+body.regist
+{
+    background-color: orange;
+}
+
+
+input.reguserinput
+{
+    width: 100px;
+}
+
+
+input.regpsw1input
+{
+    width: 100px;
+}
+
+
+input.regpsw2input
+{
+    width: 100px;
+}
+
+
+input.regemailinput
+{
+    width: 150px;
+}
+
+
+input.regyearinput
+{
+    width: 100px;
+}
+
+
+
+
+/* belepve.php */
+
+
+body.bentvan
+{
+    background-color: green;
+}
+
+
+div.uzenet
+{
+    color: black;
+}
