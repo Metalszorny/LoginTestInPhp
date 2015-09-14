@@ -16,7 +16,8 @@ Features:
 Enviroment:
 -----------
 - Development: Notepad++
-- Test: MySql: 4.1.22 & Php: 4.4.7
+- Test: Internet Explorer and a server with: MySql: 4.1.22 & Php: 4.4.7
+- OS: Microsoft Windows XP Professional Service Pack 3, 32 bit
 
 
 Warning:
