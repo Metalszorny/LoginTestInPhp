@@ -7,6 +7,14 @@ About:
 A php login function with e-mail registration confirmation.
 
 
+Used languages:
+---------------
+- PHP
+- HTML
+- CSS
+- SQL
+
+
 Features:
 ---------
 - E-mail registration confirmation
