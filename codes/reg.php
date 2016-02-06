@@ -116,14 +116,14 @@
                 ($goodpass == true) && 
                 ($validdate == true))
             {
-                mysql_query("INSERT INTO `rebeldreams`.`users` (`id`, `username`, `password`, `email`, `valid`, `birth_year`, `birth_month`, `birth_day`, `create_date`) VALUES (NULL, '$username', '$password1', '$electronicmail', '0', '$birthyear', '$birthmonth', '$birthday', CURRENT_TIMESTAMP)");
+                mysql_query("INSERT INTO `users` (`id`, `username`, `password`, `email`, `valid`, `birth_year`, `birth_month`, `birth_day`, `create_date`) VALUES (NULL, '$username', '$password1', '$electronicmail', '0', '$birthyear', '$birthmonth', '$birthday', CURRENT_TIMESTAMP)");
                 include_once('mailer/class.phpmailer.php');
 
                     $code = sha1($electronicmail);
-                    $link = "http://rebeldreams.uw.hu/validate.php?c=$code";
+                    $link = "http://url/validate.php?c=$code";
                     $mail = new PHPMailer();
                     $mail->IsMail();
-                    $mail->From     = 'rebeldreams@uw.hu';
+                    $mail->From     = 'sender';
                     $mail->FromName = 'NOREPLY';
                     $mail->Subject  =  'Sikeres regisztráció';
                     $mail->IsHTML(true);

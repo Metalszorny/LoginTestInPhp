@@ -1,5 +1,5 @@
 <?
-    $kapcsolat = mysql_connect("sql5.ultraweb.hu", "username", "password");
+    $kapcsolat = mysql_connect("server", "username", "password");
     mysql_select_db("tablename", $kapcsolat);
     mysql_query("SET CHARACTER SET 'utf8'");
     mysql_query("SET COLLATION_CONNECTION='ut8_hungarian_ci'");

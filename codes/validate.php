@@ -15,7 +15,7 @@
 
         $id = $row['id'];
 
-        $query = mysql_query("UPDATE `rebeldreams`.`users` SET `valid` = '1' WHERE `id` = '$id'");
+        $query = mysql_query("UPDATE `users` SET `valid` = '1' WHERE `id` = '$id'");
 
 
         echo "Bent volt";
