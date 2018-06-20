@@ -1,77 +1,49 @@
 /* index.php */
 
-
-body.alap
-{
+body.alap {
     background-color: blue;
 }
 
-
-input.userinput
-{
+input.userinput {
     width: 100px;
 }
 
-
-input.pswinput
-{
+input.pswinput {
     width: 100px;
 }
-
-
-
 
 /* reg.php */
 
-
-body.regist
-{
+body.regist {
     background-color: orange;
 }
 
-
-input.reguserinput
-{
+input.reguserinput {
     width: 100px;
 }
 
-
-input.regpsw1input
-{
+input.regpsw1input {
     width: 100px;
 }
 
-
-input.regpsw2input
-{
+input.regpsw2input {
     width: 100px;
 }
 
-
-input.regemailinput
-{
+input.regemailinput {
     width: 150px;
 }
 
-
-input.regyearinput
-{
+input.regyearinput {
     width: 100px;
 }
 
-
-
-
 /* belepve.php */
 
-
-body.bentvan
-{
+body.bentvan {
     background-color: green;
 }
 
-
-div.uzenet
-{
+div.uzenet {
     color: black;
 }
